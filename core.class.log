@@ -1,0 +1,61 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51943834699@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB06D88ABB8D4029FBCAC',
+    participant: undefined
+  },
+  messageTimestamp: 1708452091,
+  pushName: 'ph barazorda',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'hola',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hola',
+  name: 'ph barazorda',
+  from: '51943834699'
+}
+Error en sendProviderAndSave (ID ans_f979cc60-0bec-4840-814c-cda676ac838c): RateLimitError: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.
+    at Function.generate (/Users/hector/Documents/skynet/practice/bot-whatssap/node_modules/openai/src/error.ts:91:14)
+    at OpenAI.makeStatusError (/Users/hector/Documents/skynet/practice/bot-whatssap/node_modules/openai/src/core.ts:383:21)
+    at OpenAI.makeRequest (/Users/hector/Documents/skynet/practice/bot-whatssap/node_modules/openai/src/core.ts:446:24)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at run (/Users/hector/Documents/skynet/practice/bot-whatssap/src/services/openai/index.ts:18:20)
+    at Object.ans_f979cc60-0bec-4840-814c-cda676ac838c (/Users/hector/Documents/skynet/practice/bot-whatssap/src/flows/ai.flow.ts:15:16)
+    at async runContext (/Users/hector/Documents/skynet/practice/bot-whatssap/node_modules/@bot-whatsapp/bot/dist/index.cjs:14094:25)
+    at async cbEveryCtx (/Users/hector/Documents/skynet/practice/bot-whatssap/node_modules/@bot-whatsapp/bot/dist/index.cjs:14125:17)
+    at async resolveCbEveryCtx (/Users/hector/Documents/skynet/practice/bot-whatssap/node_modules/@bot-whatsapp/bot/dist/index.cjs:14056:33)
+    at async Object.promiseInFunc (/Users/hector/Documents/skynet/practice/bot-whatssap/node_modules/@bot-whatsapp/bot/dist/index.cjs:13930:25) {
+  status: 429,
+  headers: {
+    'alt-svc': 'h3=":443"; ma=86400',
+    'cf-cache-status': 'DYNAMIC',
+    'cf-ray': '8588a7d7594c9abf-MIA',
+    connection: 'keep-alive',
+    'content-length': '337',
+    'content-type': 'application/json; charset=utf-8',
+    date: 'Tue, 20 Feb 2024 18:01:34 GMT',
+    server: 'cloudflare',
+    'set-cookie': '__cf_bm=Dj2kBnpnrGz3GICaaGvn7XkBPxs30p8cuHYZidq3DJU-1708452094-1.0-AeQJu/gC3Qegl93sNzkBgu5jExUXrgVmT2bAXQ39rQGjIPsynTcpCYu8vQ2V8Rbxjm9e5tbTv33eKmtjnsfr7So=; path=/; expires=Tue, 20-Feb-24 18:31:34 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=utZH8pX15lqHG2ncUKN3WwEvOOJEERbna4TGdwgAORM-1708452094699-0.0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None',
+    'strict-transport-security': 'max-age=15724800; includeSubDomains',
+    vary: 'Origin',
+    'x-request-id': 'req_1c6298d6d986f2fcc4124d33a0969f8a'
+  },
+  error: {
+    message: 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.',
+    type: 'insufficient_quota',
+    param: null,
+    code: 'insufficient_quota'
+  },
+  code: 'insufficient_quota',
+  param: null,
+  type: 'insufficient_quota'
+}
