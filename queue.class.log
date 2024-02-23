@@ -1,3 +1,12 @@
-51943834699:ENCOLADO ans_f979cc60-0bec-4840-814c-cda676ac838c
-EJECUTANDO:ans_f979cc60-0bec-4840-814c-cda676ac838c
-51943834699:ERROR: {"status":429,"headers":{"alt-svc":"h3=\":443\"; ma=86400","cf-cache-status":"DYNAMIC","cf-ray":"8588a7d7594c9abf-MIA","connection":"keep-alive","content-length":"337","content-type":"application/json; charset=utf-8","date":"Tue, 20 Feb 2024 18:01:34 GMT","server":"cloudflare","set-cookie":"__cf_bm=Dj2kBnpnrGz3GICaaGvn7XkBPxs30p8cuHYZidq3DJU-1708452094-1.0-AeQJu/gC3Qegl93sNzkBgu5jExUXrgVmT2bAXQ39rQGjIPsynTcpCYu8vQ2V8Rbxjm9e5tbTv33eKmtjnsfr7So=; path=/; expires=Tue, 20-Feb-24 18:31:34 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None, _cfuvid=utZH8pX15lqHG2ncUKN3WwEvOOJEERbna4TGdwgAORM-1708452094699-0.0-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None","strict-transport-security":"max-age=15724800; includeSubDomains","vary":"Origin","x-request-id":"req_1c6298d6d986f2fcc4124d33a0969f8a"},"error":{"message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.","type":"insufficient_quota","param":null,"code":"insufficient_quota"},"code":"insufficient_quota","param":null,"type":"insufficient_quota"}
+51943834699:ENCOLADO ans_6fc7a154-5b3a-4061-98ee-cf757a9b8a1c
+EJECUTANDO:ans_6fc7a154-5b3a-4061-98ee-cf757a9b8a1c
+51943834699:SUCCESS ans_6fc7a154-5b3a-4061-98ee-cf757a9b8a1c
+51943834699:SUCCESS ans_6fc7a154-5b3a-4061-98ee-cf757a9b8a1c
+51943834699:ENCOLADO ans_f07b8fe3-7b7e-425c-8218-4b09b9f381cf
+EJECUTANDO:ans_f07b8fe3-7b7e-425c-8218-4b09b9f381cf
+51943834699:SUCCESS ans_f07b8fe3-7b7e-425c-8218-4b09b9f381cf
+51943834699:SUCCESS ans_f07b8fe3-7b7e-425c-8218-4b09b9f381cf
+51943834699:ENCOLADO ans_59ee3cbd-4b95-40f7-9ba3-ee34ed35cf7d
+EJECUTANDO:ans_59ee3cbd-4b95-40f7-9ba3-ee34ed35cf7d
+51943834699:SUCCESS ans_59ee3cbd-4b95-40f7-9ba3-ee34ed35cf7d
+51943834699:SUCCESS ans_59ee3cbd-4b95-40f7-9ba3-ee34ed35cf7d
