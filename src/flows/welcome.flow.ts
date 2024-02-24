@@ -70,4 +70,8 @@ export default addKeyword(["hola", "alo", "comprar"])
       }
     }
   )
-  .addAnswer("si desea algun modelo porfavor escribir `comprar`");
+  .addAnswer(
+    "si desea algun modelo reenvie el modelo escogido con la palabra *comprar*"
+  )
+  .addAnswer("y en breve lo atenderemos")
+  .addAnswer("en caso contrario escribe *hola* para interactuar denuevo");
