@@ -73,5 +73,6 @@ export default addKeyword(["hola", "alo", "comprar"])
   .addAnswer(
     "si desea algun modelo reenvie el modelo escogido con la palabra *comprar*"
   )
+  .addAnswer("Para cordinar su envio contactar con 984277984 🚚 🚚")
   .addAnswer("y en breve lo atenderemos")
   .addAnswer("en caso contrario escribe *hola* para interactuar denuevo");
